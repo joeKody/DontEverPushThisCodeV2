@@ -20,6 +20,7 @@ permissions:
   security-events: write  # required to upload SARIF to GitHub Security tab
   actions: read
 
+
 jobs:
     # GATE#0: Secret scanning (TruffleHog + Gitleaks)
     secret-scanning:
